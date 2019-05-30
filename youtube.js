@@ -35,7 +35,7 @@ function getVideoTitle(rawLink) {
   const reqBody = {
     'part': 'snippet',
     'id': id,
-    'key': process.env.YOUTUBEID
+    'key': process.env.YOUTUBEKEY
   };
 
   // compose youtube link to fetch
