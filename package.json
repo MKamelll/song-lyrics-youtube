@@ -1,18 +1,25 @@
 {
   "name": "youtube-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "To use run `node youtube` and post the link when it starts, if it didn't find\r the lyrics for parsing or formatting things it would prompt you to type the\r `artist name` and `song name` manually.",
+  "main": "youtube.js",
   "scripts": {
-    "start": "node youtube.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKamelll/song-lyrics-youtube.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKamelll/song-lyrics-youtube/issues"
+  },
+  "homepage": "https://github.com/MKamelll/song-lyrics-youtube#readme",
   "dependencies": {
-    "azlyrics": "^2.0.0",
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
-    "node-fetch": "^2.2.0",
+    "node-fetch": "^2.6.0",
     "readline-sync": "^1.4.9"
   }
 }
